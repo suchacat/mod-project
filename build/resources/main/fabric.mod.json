@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "firstmod",
+	"version": "1.0.0",
+	"name": "First Mod",
+	"description": "My first mod!",
+	"authors": [
+		"suchacat"
+	],
+	"contact": {
+		"homepage": "https://github.com/suchacat",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "GPLv3",
+	"icon": "assets/firstmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.suchacat.firstmod.FirstMod"
+		],
+		"fabric-datagen": [
+			"net.suchacat.firstmod.FirstModDataGenerator"
+		],
+		"client": [
+		"net.suchacat.firstmod.FirstModClient"
+		]
+	},
+	"mixins": [
+		"firstmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
