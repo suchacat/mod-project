@@ -48,9 +48,9 @@ mouseSensitivity:0.22535211267605634
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["fabric"]
+resourcePacks:["vanilla","fabric"]
 incompatibleResourcePacks:[]
-lastServer:
+lastServer:mcpvp.club
 lang:en_us
 chatVisibility:0
 chatOpacity:1.0
@@ -75,7 +75,7 @@ tutorialStep:none
 mouseWheelSensitivity:1.0
 rawMouseInput:true
 glDebugVerbosity:1
-skipMultiplayerWarning:false
+skipMultiplayerWarning:true
 hideMatchedNames:true
 joinedFirstServer:false
 hideBundleTutorial:false
